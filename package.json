@@ -1,0 +1,16 @@
+{
+  "name": "prakash-tour-travels",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prakash Tour & Travels — static website + owner admin panel + placeholder payment API routes, deployable on Vercel with zero build step.",
+  "dependencies": {
+    "resend": "^4.0.1"
+  },
+  "scripts": {
+    "dev": "npx vercel dev",
+    "deploy": "npx vercel --prod"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
